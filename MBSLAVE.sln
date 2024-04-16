@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MBSLAVE", "MBSLAVE.vbproj", "{5FBC0168-3062-4FF4-BCF9-C50E6C3BE8C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FBC0168-3062-4FF4-BCF9-C50E6C3BE8C1}.Debug|x86.ActiveCfg = Debug|x86
+		{5FBC0168-3062-4FF4-BCF9-C50E6C3BE8C1}.Debug|x86.Build.0 = Debug|x86
+		{5FBC0168-3062-4FF4-BCF9-C50E6C3BE8C1}.Release|x86.ActiveCfg = Release|x86
+		{5FBC0168-3062-4FF4-BCF9-C50E6C3BE8C1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5C6C080-6DAC-42A9-AD14-D323505B13A1}
+	EndGlobalSection
+EndGlobal
