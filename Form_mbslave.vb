@@ -217,7 +217,8 @@ Public Class Form_mbslave
 
             If spModBus.IsOpen = False Then
                 conec_flag = True
-                spModBus.BaudRate = "115200"
+                'spModBus.BaudRate = "115200"
+                spModBus.BaudRate = velocidade.SelectedItem
                 spModBus.PortName = ComboBox_AvailableSerialPorts.SelectedItem
                 spModBus.Open()
 

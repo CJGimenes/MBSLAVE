@@ -11,9 +11,9 @@
     Public frame_rx As Byte() = New Byte(256) {}
     Public frame_tx As Byte() = New Byte(256) {}
 
-    Public input_register As UShort() = New UShort(1000) {}
-    Public holding_register As UShort() = New UShort(1000) {}
-    Public input_register_status As Byte() = New Byte(1000) {}
+    Public input_register As UShort() = New UShort(10000) {}
+    Public holding_register As UShort() = New UShort(10000) {}
+    Public input_register_status As Byte() = New Byte(10000) {}
 
     Public modbusStatus As String
 
@@ -95,7 +95,7 @@
             Form_mbslave.cont_erro_crc += 1
             flag_return = False
         Else
-            While (Form_mbslave.spModBus.BytesToRead <> 0)
+            While (Form_mbslave.spModBus.BytesToRead > 0 And i < 256)
                 frame_rx(i) = Byte.Parse(Form_mbslave.spModBus.ReadByte())
                 i += 1
             End While
