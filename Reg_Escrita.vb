@@ -8,8 +8,8 @@
         Form_mbslave.tab_endereco_escrita_3.Text = Form_mbslave.tab_escrita_inicio.Value + 2
         Form_mbslave.tab_endereco_escrita_4.Text = Form_mbslave.tab_escrita_inicio.Value + 3
         Form_mbslave.tab_endereco_escrita_5.Text = Form_mbslave.tab_escrita_inicio.Value + 4
-        Form_mbslave.tab_endereco_escrita_7.Text = Form_mbslave.tab_escrita_inicio.Value + 5
-        Form_mbslave.tab_endereco_escrita_8.Text = Form_mbslave.tab_escrita_inicio.Value + 6
+        Form_mbslave.tab_endereco_escrita_6.Text = Form_mbslave.tab_escrita_inicio.Value + 5
+        Form_mbslave.tab_endereco_escrita_7.Text = Form_mbslave.tab_escrita_inicio.Value + 6
         Form_mbslave.tab_endereco_escrita_8.Text = Form_mbslave.tab_escrita_inicio.Value + 7
         Form_mbslave.tab_endereco_escrita_9.Text = Form_mbslave.tab_escrita_inicio.Value + 8
         Form_mbslave.tab_endereco_escrita_10.Text = Form_mbslave.tab_escrita_inicio.Value + 9
